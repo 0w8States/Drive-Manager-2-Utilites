@@ -1,0 +1,39 @@
+9
+40,0,Motor Type,48
+41,0,Motor Manufacturer,Harmonic Drive Systems
+42,0,Motor Model Number,FHA-17C-100-S248-E-SP
+43,0,Motor Units,0
+44,0,Motor Inertia,670000
+46,0,Motor Brake,1
+48,0,Motor Torque Constant,3250
+49,0,Motor Resistance,14
+4a,0,Motor Inductance,6
+4b,0,Motor Peak Torque,101000
+4c,0,Motor Continuous Torque,50500
+4d,0,Motor Velocity Limit,6553600
+4e,0,Motor Wiring,0
+53,0,Brake/Stop Delay Time,0
+54,0,Motor Brake Delay Time,0
+55,0,Motor Brake Activation Velocity,0
+56,0,Motor Back Emf Constant,340
+45,0,Motor Pole Pairs,6
+4f,0,Motor Hall Offset,0
+50,0,Motor Hall Type,0
+52,0,Motor Hall Wiring,3
+57,0,Micro Steps Per Rev.,0
+58,0,Gear Ratio,65537
+59,0,Hall Velocity Shift,0
+5b,0,Position Encoder Resolution,4000
+5c,0,Position Encoder Direction,0
+5d,0,Position Encoder Type,0
+60,0,Motor Encoder Type,15
+61,0,Motor Encoder Units,0
+62,0,Motor Encoder Counts,8192
+63,0,Motor Encoder Resolution,1000
+64,0,Motor Electrical Distance,100000
+65,0,Motor Encoder Direction,1
+67,0,Analog Encoder Shift,0
+af,0,Amp Options Register,2
+12a,0,Motor Encoder Options,0
+12b,0,Position Encoder Options,1
+15b,0,Brake Enable Delay Time,0

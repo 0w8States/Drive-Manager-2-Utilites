@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Motor IsManualInput="true" IsManualMFiInput="false">
+    <DatabaseType>
+        <SchemaVersion />
+        <DataVersion />
+        <OrderCode>FHA-17C-50-S248-E-SP.dmmotor</OrderCode>
+        <GroupType />
+        <ElectricMotorType>FHA-17C-50-S248-E-SP.dmmotor</ElectricMotorType>
+        <MotorfeedbackType />
+        <MotorbrakeType />
+        <AssemblyType />
+        <VendorName>Harmonic Drive Systems</VendorName>
+        <IsAc>false</IsAc>
+        <ConstructType>6</ConstructType>
+        <IsBeckhoffMotorShaftSpeicified>false</IsBeckhoffMotorShaftSpeicified>
+    </DatabaseType>
+    <DatabaseParameters>
+        <Parameter>
+            <Comment LcId="1033">Vendor</Comment>
+            <Name>Vendor</Name>
+            <Data type="visibleString">Harmonic Drive Systems</Data>
+        </Parameter>
+        <Parameter>
+            <Comment LcId="1033">Order code</Comment>
+            <Name>OrderCode</Name>
+            <Data type="visibleString">FHA-17C-50-S248-E-SP.dmmotor</Data>
+        </Parameter>
+        <Parameter>
+            <Comment LcId="1033">Nominal current</Comment>
+            <Name>Inrms</Name>
+            <Data type="real64" unitSiNumerator="4">10.99</Data>
+        </Parameter>
+        <Parameter>
+            <Comment LcId="1033">Peak current</Comment>
+            <Name>Iprms</Name>
+            <Data type="real64" unitSiNumerator="4">29.96</Data>
+        </Parameter>
+        <Parameter>
+            <Comment LcId="1033">Max. mechanical speed</Comment>
+            <Name>Nmax</Name>
+            <Data type="real64" unitSiNumerator="225">4990</Data>
+        </Parameter>
+        <Parameter>
+            <Comment LcId="1033">Torque constant</Comment>
+            <Name>kT</Name>
+            <Data type="real64" unitSiNumerator="86" unitSiDenominator="4">0.046</Data>
+        </Parameter>
+        <Parameter>
+            <Comment LcId="1033">Voltage constant</Comment>
+            <Name>kErms</Name>
+            <Data type="real64" unitSiNumerator="38" unitSiDenominator="225">0.0034</Data>
+        </Parameter>
+        <Parameter>
+            <Comment LcId="1033">Pole pairs</Comment>
+            <Name>PolePairs</Name>
+            <Data type="real64">6</Data>
+        </Parameter>
+        <Parameter>
+            <Comment LcId="1033">Motor inertia with brake and encoder</Comment>
+            <Name>J</Name>
+            <Data type="real64" unitSiNumerator="224">6.7e-05</Data>
+        </Parameter>
+        <Parameter>
+            <Comment LcId="1033">Motor thermal time constant</Comment>
+            <Name>Mtc</Name>
+            <Data type="real64" unitSiNumerator="71">20</Data>
+        </Parameter>
+        <Parameter>
+            <Comment LcId="1033">Time constant i²t</Comment>
+            <Name>Ti2t</Name>
+            <Data type="real64" unitSiNumerator="3">1</Data>
+        </Parameter>
+        <Parameter>
+            <Name>ConstrType</Name>
+            <Data type="real64">6</Data>
+        </Parameter>
+        <Parameter>
+            <Comment LcId="1033">Electric motor type</Comment>
+            <Name>ElecType</Name>
+            <Data type="visibleString">FHA-17C-50-S248-E-SP.dmmotor</Data>
+        </Parameter>
+        <Parameter>
+            <Comment LcId="1033">Nominal current</Comment>
+            <Name>I0rms</Name>
+            <Data type="real64" unitSiNumerator="4">10.99</Data>
+        </Parameter>
+        <Parameter>
+            <Name>MnUnrms</Name>
+            <DataTable type="real641" unitSiNumerator="38">
+                <item>24</item>
+            </DataTable>
+            <DataTable type="real641" unitSiNumerator="86">
+                <item>0.505</item>
+            </DataTable>
+        </Parameter>
+        <Parameter>
+            <Name>NnUnrms</Name>
+            <DataTable type="real641" unitSiNumerator="38">
+                <item>24</item>
+            </DataTable>
+            <DataTable type="real641" unitSiNumerator="225">
+                <item>2495</item>
+            </DataTable>
+        </Parameter>
+        <Parameter>
+            <Comment LcId="1033">Winding resistance R Ph-Ph 20°C</Comment>
+            <Name>R</Name>
+            <Data type="real64" unitSiNumerator="40">0.14</Data>
+        </Parameter>
+        <Parameter>
+            <Comment LcId="1033">Winding inductance Lq Ph-Ph 20°C</Comment>
+            <Name>Lq</Name>
+            <Data type="real64" unitSiNumerator="44">6.000000000000001e-05</Data>
+        </Parameter>
+    </DatabaseParameters>
+</Motor>
